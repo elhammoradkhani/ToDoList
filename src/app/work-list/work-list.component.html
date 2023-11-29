@@ -1,0 +1,5 @@
+<input type="text"class="work-item" placeholder="what's you first to do list" [(ngModel)]="workItem"> 
+<button (click)="onSave()" class="add-button">Add</button>
+<div *ngFor="let item of toDoList">
+    <app-work-item [workItem]="item" (delete)="onDelete($event)"></app-work-item>
+</div>

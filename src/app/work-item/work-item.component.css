@@ -1,0 +1,16 @@
+.work-item{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.done-button, .delete-button{
+    width: 60px;
+    height: 32px;
+    padding:5px 10px ;
+    margin-left: 10px;
+}
+
+.done{
+    color: red;
+}

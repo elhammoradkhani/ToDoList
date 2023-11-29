@@ -1,0 +1,5 @@
+<div class="work-item">
+    <p [ngClass]="isItemDone ? 'done': ''">{{workItem}}</p>
+    <button (click)="onDone()" class="done-button">Done</button>
+    <button (click)="onDelete()" class="delete-button">Delete</button>
+</div>
